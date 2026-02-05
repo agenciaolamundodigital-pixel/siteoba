@@ -1,0 +1,279 @@
+
+
+# 🎨 PROMPT DE AJUSTE DE LAYOUT – ANTIGRAVITY (GOOGLE)
+
+## Refinamento Visual e UX – Site Onepage OBA
+
+Você é um **especialista sênior em UI/UX, motion design, web performance e mobile-first design**, com domínio de **glassmorphism**, **scroll-based effects** e **interfaces inspiradas em apps modernos**.
+
+O site onepage da **Oficina Belas Artes (OBA)** já está criado.
+Sua tarefa **NÃO é recriar o site**, mas **AJUSTAR, EVOLUIR e SOFISTICAR** o layout existente.
+
+---
+
+## 🎯 OBJETIVO DO AJUSTE
+
+Transformar o site atual em uma experiência:
+
+* Clean
+* Moderna
+* Visualmente rica
+* Artística
+* Mobile-first
+* Emocionalmente envolvente
+
+Mantendo:
+
+* Estrutura de conteúdo
+* Funil já existente
+* Identidade da marca OBA
+
+---
+
+## 🎨 IDENTIDADE VISUAL (OBRIGATÓRIA)
+
+Utilizar **exclusivamente** as cores oficiais da OBA:
+
+* Azul principal: `#1ECAD3`
+* Azul apoio: `#169FB3`
+* Amarelo principal: `#F5C400`
+* Amarelo suave: `#FFD84D`
+* Vermelho detalhe: `#E63946`
+* Grafite (texto): `#1F1F1F`
+* Branco: `#FFFFFF`
+* Off-white: `#F7F9FA`
+
+⚠️ O layout deve ser **clean**, mas **nunca simples ou sem personalidade**.
+
+---
+
+## ✨ DIRETRIZES VISUAIS GERAIS
+
+### Glassmorphism
+
+Aplicar efeito glass em:
+
+* Cards
+* Blocos de destaque
+* Áreas de CTA
+* Elementos flutuantes
+
+Características:
+
+* Fundo semi-transparente
+* Blur suave
+* Bordas sutis
+* Sombra leve
+
+---
+
+### Efeitos de rolagem (Scroll Effects)
+
+Adicionar:
+
+* Fade-in progressivo
+* Parallax sutil
+* Movimentos leves de entrada
+* Destaque visual conforme o usuário desce a página
+
+Nada exagerado. Tudo fluido.
+
+---
+
+### Microinterações
+
+Aplicar em:
+
+* Botões
+* Cards
+* Ícones
+* Links
+
+Exemplos:
+
+* Hover com leve expansão
+* Mudança suave de cor
+* Elevação com sombra
+* Feedback visual ao toque (mobile)
+
+---
+
+## 📱 MOBILE-FIRST (PRIORIDADE MÁXIMA)
+
+O design **DEVE ser pensado primeiro para mobile**.
+
+### Barra fixa inferior (estilo app)
+
+Criar um **menu fixo na base da tela em mobile**, contendo:
+
+* Início
+* Cursos
+* Instagram
+* WhatsApp
+* Aula Experimental
+
+Estilo:
+
+* Glassmorphism
+* Ícones claros
+* Animações suaves
+* Fácil acesso com o polegar
+
+---
+
+### Botões mobile
+
+* Todos os CTAs principais devem ser grandes
+* Fácil clique
+* Espaçamento confortável
+* Priorizar acessibilidade
+
+---
+
+## 🔥 HERO SECTION – AJUSTE ESPECIAL
+
+O Hero precisa ser **espetacular e funcional**.
+
+Aplicar:
+
+* Fundo artístico (gradiente OBA ou ilustração sutil)
+* Animações leves
+* Camadas com profundidade
+* Elementos flutuantes
+* Presença da Arty com movimento sutil
+
+O Hero deve:
+
+* Impactar
+* Parar o scroll
+* Convidar à exploração
+* Funcionar perfeitamente no mobile
+
+---
+
+## 🎨 FUNDOS DAS DOBRAS
+
+Evitar fundo sempre branco.
+
+Alternar entre:
+
+* Branco / off-white
+* Azul OBA em variação suave
+* Gradientes leves com azul e amarelo
+* Texturas artísticas discretas
+
+Cada dobra deve:
+
+* Ter identidade visual própria
+* Manter harmonia com o todo
+* Não cansar visualmente
+
+---
+
+## 📸 CONTEÚDO REAL – INSTAGRAM
+
+Utilizar o Instagram oficial:
+👉 [https://www.instagram.com/oba.meier/](https://www.instagram.com/oba.meier/)
+
+Extrair:
+
+* Imagens reais
+* Ambientes
+* Alunos
+* Trabalhos
+* Energia da escola
+
+Usar essas imagens para:
+
+* Humanizar o site
+* Substituir imagens genéricas
+* Criar conexão real
+
+---
+
+## 💬 BOTÕES E ELEMENTOS FLUTUANTES
+
+Adicionar:
+
+### Botão flutuante de WhatsApp
+
+* Sempre visível
+* Ícone claro
+* Animação sutil
+* Não invasivo
+
+---
+
+### Botão especial – Aula Experimental
+
+* Destaque visual
+* Cor azul OBA ou amarelo
+* Presente em:
+
+  * Hero
+  * Barra mobile
+  * Última dobra
+
+Texto:
+**“Faça sua aula experimental”**
+
+---
+
+### Botão “Voltar ao topo”
+
+* Surge após scroll
+* Ícone minimalista
+* Animação suave
+* Posicionado discretamente
+
+---
+
+## ⚓ RODAPÉ (AJUSTE IMPORTANTE)
+
+Criar um rodapé **incrível, organizado e profissional**.
+
+Deve conter:
+
+* Logo da OBA
+* Frase institucional:
+  **“A arte é para todos.”**
+* Links:
+
+  * Instagram
+  * WhatsApp
+* Endereço resumido
+* Assinatura:
+
+> Criado por **OláMundoDigital**
+
+Visual:
+
+* Fundo diferenciado
+* Organização clara
+* Tipografia elegante
+* Harmonia com o restante do site
+
+---
+
+## ⚙️ PERFORMANCE E QUALIDADE
+
+* Manter alta performance
+* Animações leves
+* Código limpo
+* Responsividade perfeita
+* Experiência fluida
+
+---
+
+## RESULTADO ESPERADO
+
+Um site onepage que:
+
+* Não parece um site simples
+* Parece um **produto digital moderno**
+* Funciona como um app no mobile
+* Usa arte, movimento e cor com inteligência
+* Representa fielmente a identidade da OBA
+* Encanta sem exagerar
+
+

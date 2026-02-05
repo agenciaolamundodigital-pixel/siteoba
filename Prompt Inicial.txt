@@ -1,0 +1,282 @@
+
+## PROMPT – ANTIGRAVITY (GOOGLE)
+
+### Site Onepage – Oficina Belas Artes (OBA)
+
+Você é um **especialista em web design, UX, UI, storytelling visual e performance**, com foco em experiências educacionais criativas.
+
+Crie um **site onepage institucional** para a **Oficina Belas Artes (OBA)**, uma escola de artes que ensina desenho e pintura para todas as idades, com a premissa central de que **“a arte é para todos”**.
+
+---
+
+## 🎯 OBJETIVO DO SITE
+
+Criar um site:
+
+* Visualmente bonito e impactante
+* Extremamente funcional
+* Clean e moderno
+* Sem foco em venda direta
+* Estruturado como **funil de conversão emocional**
+* Que desperte curiosidade, conexão e desejo de experiência
+
+---
+
+## 🎨 IDENTIDADE VISUAL (OBRIGATÓRIA)
+
+# 🎨 PALETA OFICIAL OBA (BASEADA NA LOGO E NA ARTY)
+
+> **Essa é a paleta que DEVE ser usada no site.
+> Nada fora disso.**
+
+## 🔵 Azul OBA (cor dominante)
+
+Baseada no cabelo da Arty e no “O” da logo.
+
+* Azul Turquesa Principal
+  **HEX:** `#1ECAD3`
+* Azul Médio de Apoio
+  **HEX:** `#169FB3`
+
+**Uso**
+
+* CTAs
+* Ícones
+* Destaques
+* Elementos interativos
+* Animações
+* Links
+
+---
+
+## 🟡 Amarelo OBA (cor de energia)
+
+Extraída do círculo da logo e dos óculos da Arty.
+
+* Amarelo Principal
+  **HEX:** `#F5C400`
+* Amarelo Suave
+  **HEX:** `#FFD84D`
+
+**Uso**
+
+* Detalhes
+* Pontos de atenção
+* Ilustrações
+* Elementos da Arty
+* Nunca como fundo dominante
+
+---
+
+## 🔴 Vermelho Criativo (detalhe pontual)
+
+Presente no tênis da Arty e pequenos detalhes visuais.
+
+* Vermelho
+  **HEX:** `#E63946`
+
+**Uso**
+
+* Microdetalhes
+* Ícones pequenos
+* Nunca em textos longos
+* Nunca como CTA principal
+
+---
+
+## ⚫ Preto / Grafite
+
+Extraído do contorno da logo e tipografia.
+
+* Grafite
+  **HEX:** `#1F1F1F`
+
+**Uso**
+
+* Texto principal
+* Títulos
+* Contraste
+
+---
+
+## ⚪ Branco / Off-white
+
+Base neutra do layout.
+
+* Branco
+  **HEX:** `#FFFFFF`
+* Off-white
+  **HEX:** `#F7F9FA`
+
+**Uso**
+
+* Fundo principal
+* Áreas de respiro
+* Estrutura do site
+
+---
+
+## 🧠 REGRA VISUAL OBA (IMPORTANTÍSSIMO)
+
+> **O site é CLEAN.
+> A cor entra como EXPLOSÃO CONTROLADA.**
+
+Quem carrega cor:
+
+* A Arty
+* Ícones
+* Detalhes
+* CTAs
+* Ilustrações
+
+Quem respira:
+
+* Fundo
+* Textos
+* Estrutura
+
+---
+
+
+Utilizar **exclusivamente** a paleta abaixo, baseada na logo oficial da OBA e na mascote Arty:
+
+* Azul principal: `#1ECAD3`
+* Azul de apoio: `#169FB3`
+* Amarelo principal: `#F5C400`
+* Amarelo suave: `#FFD84D`
+* Vermelho detalhe: `#E63946`
+* Grafite (texto): `#1F1F1F`
+* Branco: `#FFFFFF`
+* Off-white: `#F7F9FA`
+
+⚠️ O layout deve ser **clean**, com fundo claro.
+⚠️ As cores vibrantes devem aparecer **apenas em destaques, CTAs, ícones e ilustrações**.
+
+---
+
+## 👩‍🎨 MASCOTE ARTY
+
+A mascote **Arty** deve ser usada como:
+
+* Guia visual do site
+* Elemento de conexão emocional
+* Presença sutil e amigável
+
+Ela pode:
+
+* Apontar seções
+* Acompanhar textos
+* Aparecer em ilustrações e detalhes
+
+Nunca poluir o layout.
+
+---
+
+## 🧠 ESTRUTURA DO SITE (ONEPAGE)
+
+### HERO SECTION
+
+* Headline forte:
+  **“Você não precisa saber desenhar para começar.”**
+* Subheadline:
+  **“Na Oficina Belas Artes, a arte é para todos.”**
+* Texto curto e inspirador
+* Botão discreto de scroll: “Descubra esse universo”
+* Visual artístico com Arty
+* Animações suaves
+
+---
+
+### A IMPORTÂNCIA DA ARTE
+
+* Texto emocional e acessível
+* Quebra de crenças (“não tenho dom”, “não sei desenhar”)
+* Ícones coloridos com base na paleta OBA
+
+---
+
+### METODOLOGIA OBA
+
+* Metodologia inclusiva
+* Ritmo individual
+* Professores especialistas
+* Ambiente acolhedor
+* Cards com hover e microinterações
+
+---
+
+### CURSOS
+
+Apresentar visualmente os cursos:
+
+* Mangá
+* Cartoon & HQ
+* Desenho Realista
+* Pintura em Tela
+* Moda
+* Comunicação Visual
+* Cenário & Ambientação (T.H.E.)
+
+Cada curso com:
+
+* Nome
+* Descrição curta
+* Ilustração
+* Interação ao passar o mouse
+
+---
+
+### INSTAGRAM INTEGRADO
+
+* Feed real do Instagram
+* Layout em grid
+* Botão “Ver mais no Instagram”
+
+---
+
+### LOCALIZAÇÃO
+
+* Mapa integrado
+* Unidades: Méier e Tijuca
+* Botões:
+
+  * “Como chegar”
+  * “Falar no WhatsApp”
+
+---
+
+### CONVERSÃO LEVE
+
+* Texto convidativo:
+  **“Que tal viver essa experiência?”**
+* Botão principal:
+  **“Agendar aula experimental gratuita”**
+* Botão secundário:
+  WhatsApp
+
+---
+
+### FOOTER
+
+* Logo da OBA
+* Frase:
+  **“A arte é para todos.”**
+* Links: Instagram e WhatsApp
+
+---
+
+## ⚙️ REQUISITOS TÉCNICOS
+
+* Site responsivo
+* Scroll suave
+* Animações leves
+* Performance otimizada
+* SEO básico
+* Código organizado
+
+---
+
+## RESULTADO ESPERADO
+
+Um site onepage **bonito, leve, emocional e funcional**, que represente fielmente a identidade visual da OBA, usando corretamente suas cores, a Arty como guia e uma experiência que convida o visitante a viver a arte.
+
