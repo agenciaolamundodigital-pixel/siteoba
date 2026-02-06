@@ -3,265 +3,350 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oficina Belas Artes - Studio Criativo</title>
-    <meta name="description" content="Aulas de desenho, mangá, e pintura para todas as idades.">
-    <!-- Fonts & Icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Oficina Belas Artes - Sua Jornada Artística Começa Aqui</title>
+    <meta name="description"
+        content="Descubra seu potencial artístico na Oficina Belas Artes. Aulas de desenho, mangá e pintura no Méier e Tijuca. Arte para todos.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fredoka:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-    <!-- HERO SLIDER SECTION -->
-    <section id="inicio" class="hero-slider">
+    <!-- Desktop Navbar -->
+    <nav class="navbar glass">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <img src="images/Logo OBA Arty.png" alt="OBA Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#proposito">Por que Arte?</a></li>
+                <li><a href="#metodologia">Metodologia</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#localizacao">Unidades</a></li>
+            </ul>
+            <a href="https://wa.me/5521999999999" class="btn btn-primary desktop-cta">Agendar Aula Experimental</a>
+        </div>
+    </nav>
 
-        <!-- Slide 1: Welcome (Blue Theme) -->
-        <div class="slide slide-1 active">
-            <div class="slide-content">
-                <div class="slide-text">
-                    <span class="marker-text" style="color:#FFF; font-size:1.5rem; transform:rotate(-5deg);">Bem-vindo à
-                        OBA!</span>
-                    <h1>Descubra o artista que existe em você.</h1>
-                    <p>Desenho, Pintura e Criatividade para todas as idades. Sem dom, apenas paixão.</p>
-                    <a href="#cursos" class="btn btn-secondary" style="border-color:white; color:var(--azul-oba);">Ver
-                        Cursos</a>
+    <!-- 1. HERO SECTION -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg-elements">
+            <!-- Blobs & Blur -->
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+
+        <div class="container hero-container">
+            <div class="hero-text reveal">
+                <span class="hero-badge">🎨 Arte sem barreiras</span>
+                <h1>E se arte fosse mais do que técnica... <br>e fosse <span class="highlight">transformação?</span>
+                </h1>
+                <p>Descubra seu potencial artístico na Oficina Belas Artes — sem julgamentos, sem barreiras. Um espaço
+                    para você ser você.</p>
+                <div class="hero-ctas">
+                    <a href="#cursos" class="btn btn-primary">Descubrir Cursos</a>
+                    <a href="https://wa.me/5521999999999" class="btn btn-outline">Falar com Consultor</a>
                 </div>
-                <div class="slide-image">
-                    <img src="images/Arty (2).png" alt="Arty Welcome">
+            </div>
+            <div class="hero-visual reveal">
+                <img src="images/Arty (2).png" alt="Arty Mascote" class="arty-float">
+                <!-- Floating Elements Parallax -->
+                <div class="float-card card-1 glass">
+                    <i class="fas fa-heart"></i>
+                    <span>+2000 Alunos</span>
+                </div>
+                <div class="float-card card-2 glass">
+                    <i class="fas fa-star"></i>
+                    <span>Nota 5.0</span>
                 </div>
             </div>
         </div>
 
-        <!-- Slide 2: Manga (Yellow Theme) -->
-        <div class="slide slide-2">
-            <div class="slide-content">
-                <div class="slide-text" style="color:var(--grafite);">
-                    <span class="marker-text" style="color:var(--vermelho-oba); font-size:1.5rem;">Universo Geek</span>
-                    <h1 style="color:var(--grafite);">Aprenda Mangá e Crie Seus Mundos.</h1>
-                    <p style="color:#444;">Técnicas profissionais para criar personagens, roteiros e storyboards
-                        incríveis.</p>
-                    <a href="#cursos" class="btn btn-primary" style="background:var(--grafite);">Saiba Mais</a>
-                </div>
-                <div class="slide-image">
-                    <img src="images/Arty (5).png" alt="Arty Thinking">
-                </div>
-            </div>
-        </div>
-
-        <!-- Slide 3: Art for All (Red Theme) -->
-        <div class="slide slide-3">
-            <div class="slide-content">
-                <div class="slide-text">
-                    <span class="marker-text" style="color:#FFD028; font-size:1.5rem;">Sem Limites</span>
-                    <h1>A Arte é Para Todos. <br>Inclusive Você.</h1>
-                    <p>Ambiente acolhedor, professores artistas e uma metodologia que respeita seu ritmo.</p>
-                    <a href="https://wa.me/5521999999999" class="btn btn-secondary"
-                        style="color:var(--vermelho-oba);">Agendar Aula</a>
-                </div>
-                <div class="slide-image">
-                    <img src="images/Arty (3).png" alt="Arty Happy">
-                </div>
-            </div>
-        </div>
-
-        <!-- Scroll Down Indicator -->
-        <div class="scroll-down">
-            <p>Role para explorar</p>
+        <div class="scroll-indicator">
             <i class="fas fa-chevron-down"></i>
         </div>
+    </section>
 
-        <!-- Wave Divider Bottom of Hero -->
-        <div class="divider divider-bottom" style="color:var(--amarelo-oba);">
-            <svg viewBox="0 0 1440 100" fill="currentColor" preserveAspectRatio="none">
-                <path
-                    d="M0,32L80,48C160,64,320,96,480,96C640,96,800,64,960,48C1120,32,1280,32,1360,32L1440,32L1440,100L1360,100C1280,100,1120,100,960,100C800,100,640,100,480,100C320,100,160,100,80,100L0,100Z">
-                </path>
-            </svg>
+    <!-- 2. FUNIL / PURPOSE SECTION -->
+    <section id="proposito" class="purpose section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>A arte não é só técnica.<br>É expressão, equilíbrio e pertencimento.</h2>
+                <p>Muitos acham que precisam de "dom". Nós provamos o contrário todos os dias.</p>
+            </div>
+
+            <div class="purpose-grid">
+                <div class="purpose-card glass reveal">
+                    <div class="icon-wrapper color-1">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Criatividade</h3>
+                    <p>Desbloqueie sua mente para novas soluções e ideias inovadoras.</p>
+                </div>
+                <div class="purpose-card glass reveal">
+                    <div class="icon-wrapper color-2">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Consciência</h3>
+                    <p>Foco pleno no momento presente. Uma pausa saudável na rotina.</p>
+                </div>
+                <div class="purpose-card glass reveal">
+                    <div class="icon-wrapper color-3">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Expressão</h3>
+                    <p>Coloque no papel o que as palavras às vezes não conseguem dizer.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- SECTION 1: INTRODUCTION (Yellow Background) -->
-    <section id="importancia" class="section-intro">
+    <!-- 3. METHODOLOGY -->
+    <section id="metodologia" class="methodology section-padding">
         <div class="container">
-            <div style="text-align:center;" class="reveal">
-                <p class="marker-text" style="font-size:1.2rem; color:var(--vermelho-oba);">Por que desenhar?</p>
-                <h2 style="font-size:3rem; margin-top:10px;">Mais que um hobby, <br>um superpoder.</h2>
-            </div>
+            <div class="split-layout">
+                <div class="method-content reveal">
+                    <span class="section-tag">Nossa Metodologia</span>
+                    <h2>Liberdade para criar,<br>apoio para crescer.</h2>
+                    <p>Aqui, você não é apenas mais um aluno copiando formas. Você é um artista em descoberta.</p>
 
-            <div class="grid-3">
-                <div class="feature-box reveal">
-                    <i class="fas fa-brain feature-icon"></i>
-                    <h3>Foco Total</h3>
-                    <p>Desconecte do mundo e conecte-se com você. Desenhar melhora a concentração e o foco.</p>
+                    <ul class="method-list">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <strong>Ritmo Individual</strong>
+                                <p>Sua evolução é única. Respeitamos seu tempo e seus objetivos.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <strong>Professores Mentores</strong>
+                                <p>Artistas atuantes que guiam você do rascunho à obra-prima.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <strong>Ambiente Seguro</strong>
+                                <p>Um lugar livre de julgamentos, feito para a experimentação.</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="feature-box reveal" style="transition-delay:0.2s;">
-                    <i class="fas fa-heart feature-icon" style="color:var(--vermelho-oba);"></i>
-                    <h3>Terapia Pura</h3>
-                    <p>Expresse sentimentos e alivie o estresse de uma forma colorida e divertida.</p>
-                </div>
-                <div class="feature-box reveal" style="transition-delay:0.4s;">
-                    <i class="fas fa-pencil-alt feature-icon" style="color:var(--roxo-criativo);"></i>
-                    <h3>Habilidade Real</h3>
-                    <p>Você vai aprender técnicas reais. Luz, sombra, perspectiva e anatomia.</p>
+                <div class="method-visual reveal">
+                    <div class="photo-grid">
+                        <!-- Placeholder specific colored blocks simulating photos -->
+                        <div class="photo-item p1"></div>
+                        <div class="photo-item p2"></div>
+                        <img src="images/Arty (5).png" alt="Arty" class="arty-method">
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Divider to next section (Blue) -->
-        <div class="divider divider-bottom" style="color:var(--azul-oba);">
-            <svg viewBox="0 0 1440 100" fill="currentColor" preserveAspectRatio="none">
-                <path
-                    d="M0,64L80,58.7C160,53,320,43,480,48C640,53,800,75,960,80C1120,85,1280,75,1360,69.3L1440,64L1440,100L1360,100C1280,100,1120,100,960,100C800,100,640,100,480,100C320,100,160,100,80,100L0,100Z">
-                </path>
-            </svg>
         </div>
     </section>
 
-    <!-- SECTION 2: METHODOLOGY (Blue Background) -->
-    <section id="metodologia" class="section-method">
+    <!-- 4. COURSES -->
+    <section id="cursos" class="courses section-padding">
         <div class="container">
-            <div class="method-row reveal">
-                <div class="method-text">
-                    <span class="marker-text" style="color:var(--amarelo-oba);">01.</span>
-                    <h3>Respeito ao seu Ritmo</h3>
-                    <p>Aqui não é escola tradicional. Você tem seu próprio projeto e o professor te guia
-                        individualmente. Sem pressão, sem provas.</p>
-                </div>
-                <div class="method-img">
-                    <i class="fas fa-user-clock" style="font-size:4rem; color:var(--azul-oba);"></i>
-                </div>
+            <div class="section-header reveal">
+                <span class="section-tag">Nossas Oficinas</span>
+                <h2>Encontre sua expressão</h2>
+                <p>Do traço clássico ao digital. Qual universo você quer explorar?</p>
             </div>
 
-            <div class="method-row reverse reveal">
-                <div class="method-text">
-                    <span class="marker-text" style="color:var(--amarelo-oba);">02.</span>
-                    <h3>Prática desde o Início</h3>
-                    <p>Teoria é bom, mas mão na massa é melhor. Desde a primeira aula você já sai desenhando e criando.
-                    </p>
-                </div>
-                <div class="method-img">
-                    <i class="fas fa-paint-brush" style="font-size:4rem; color:var(--azul-oba);"></i>
-                </div>
-            </div>
-        </div>
-
-        <!-- Divider to next section (Off-White) -->
-        <div class="divider divider-bottom" style="color:var(--off-white);">
-            <svg viewBox="0 0 1440 100" fill="currentColor" preserveAspectRatio="none">
-                <path
-                    d="M0,32L60,42.7C120,53,240,75,360,74.7C480,75,600,53,720,48C840,43,960,53,1080,58.7C1200,64,1320,64,1380,64L1440,64L1440,100L1360,100C1280,100,1120,100,960,100C800,100,640,100,480,100C320,100,160,100,80,100L0,100Z">
-                </path>
-            </svg>
-        </div>
-    </section>
-
-    <!-- SECTION 3: COURSES (Light Background) -->
-    <section id="cursos" class="section-courses">
-        <div class="container">
-            <h2 style="text-align:center; font-size:3rem; margin-bottom:60px; color:var(--grafite);">Nossas Oficinas
-            </h2>
-
-            <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap:40px;">
-                <!-- Course Card -->
-                <div class="course-card reveal">
-                    <div class="course-img-wrapper">
+            <div class="courses-grid">
+                <!-- Card 1 -->
+                <div class="course-card glass reveal">
+                    <div class="card-image">
                         <img src="images/course-manga.png" alt="Mangá">
+                        <div class="overlay"></div>
                     </div>
-                    <div class="course-content">
+                    <div class="card-content">
                         <h3>Mangá & Anime</h3>
-                        <p>Crie personagens icônicos com o estilo japonês.</p>
+                        <p>Transforme histórias em traços. Domine a estética japonesa com maestria.</p>
+                        <a href="https://wa.me/5521999999999" class="btn-link">Saiba mais <i
+                                class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <!-- Course Card -->
-                <div class="course-card reveal">
-                    <div class="course-img-wrapper">
-                        <img src="images/course-cartoon.png" alt="Cartoon">
-                    </div>
-                    <div class="course-content">
-                        <h3>Cartoon</h3>
-                        <p>Expressão e criatividade para quadrinhos e tirinhas.</p>
-                    </div>
-                </div>
-                <!-- Course Card -->
-                <div class="course-card reveal">
-                    <div class="course-img-wrapper">
+
+                <!-- Card 2 -->
+                <div class="course-card glass reveal">
+                    <div class="card-image">
                         <img src="images/course-realismo.png" alt="Realismo">
+                        <div class="overlay"></div>
                     </div>
-                    <div class="course-content">
-                        <h3>Realismo</h3>
-                        <p>A magia do grafite e do carvão no papel.</p>
+                    <div class="card-content">
+                        <h3>Desenho Realista</h3>
+                        <p>Veja o mundo com olhar de artista. Luz, sombra e texturas impressionantes.</p>
+                        <a href="https://wa.me/5521999999999" class="btn-link">Saiba mais <i
+                                class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <!-- Course Card -->
-                <div class="course-card reveal">
-                    <div class="course-img-wrapper">
+
+                <!-- Card 3 -->
+                <div class="course-card glass reveal">
+                    <div class="card-image">
+                        <img src="images/course-cartoon.png" alt="Cartoon">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Cartoon & HQ</h3>
+                        <p>Dê vida a personagens expressivos e crie suas próprias tirinhas.</p>
+                        <a href="https://wa.me/5521999999999" class="btn-link">Saiba mais <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="course-card glass reveal">
+                    <div class="card-image">
                         <img src="images/course-pintura.png" alt="Pintura">
+                        <div class="overlay"></div>
                     </div>
-                    <div class="course-content">
-                        <h3>Pintura</h3>
-                        <p>Telas, tintas e muitas cores.</p>
+                    <div class="card-content">
+                        <h3>Pintura em Tela</h3>
+                        <p>A terapia das cores. Relaxe e crie obras vibrantes com óleo ou acrílica.</p>
+                        <a href="https://wa.me/5521999999999" class="btn-link">Saiba mais <i
+                                class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
-
-            <div style="text-align:center; margin-top:80px;">
-                <a href="https://wa.me/5521999999999" class="btn btn-cta">Agendar Aula Experimental Grátis</a>
-            </div>
-        </div>
-
-        <!-- Divider to next section (Dark) -->
-        <div class="divider divider-bottom" style="color:var(--grafite);">
-            <svg viewBox="0 0 1440 100" fill="currentColor" preserveAspectRatio="none">
-                <path
-                    d="M0,96L80,85.3C160,75,320,53,480,53.3C640,53,800,75,960,80C1120,85,1280,75,1360,69.3L1440,64L1440,100L1360,100C1280,100,1120,100,960,100C800,100,640,100,480,100C320,100,160,100,80,100L0,100Z">
-                </path>
-            </svg>
         </div>
     </section>
 
-    <!-- SECTION 4: LOCATION (Dark Background) -->
-    <section id="localizacao" class="section-location">
+    <!-- 5. INSTAGRAM FEED -->
+    <section class="instagram section-padding">
         <div class="container">
-            <h2 style="text-align:center; font-size:3rem; margin-bottom:50px;">Onde Criamos</h2>
-            <div style="display:flex; justify-content:center; gap:40px; flex-wrap:wrap;">
-                <div
-                    style="background:rgba(255,255,255,0.1); padding:30px; border-radius:30px; backdrop-filter:blur(5px);">
-                    <h3 style="color:var(--azul-oba);">Méier</h3>
-                    <p style="margin:15px 0;">Rua Dias da Cruz, 123</p>
-                    <a href="#" class="btn btn-secondary"
-                        style="background:transparent; color:white; border-color:white; font-size:0.9rem;">Ver Mapa</a>
+            <div class="insta-header reveal">
+                <i class="fab fa-instagram"></i>
+                <h2>Veja a OBA em ação</h2>
+                <p>Arte que acontece agora. Siga <strong>@oba.meier</strong></p>
+            </div>
+
+            <div class="insta-grid reveal">
+                <!-- Placeholders for feed -->
+                <div class="insta-post"></div>
+                <div class="insta-post"></div>
+                <div class="insta-post"></div>
+                <div class="insta-post"></div>
+            </div>
+
+            <div class="insta-cta reveal">
+                <a href="https://instagram.com/oba.meier" target="_blank" class="btn btn-outline">Ver Perfil
+                    Completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. LOCATION / MAP -->
+    <section id="localizacao" class="location section-padding">
+        <div class="container">
+            <div class="split-layout reverse-mobile">
+                <div class="loc-info reveal">
+                    <h2>Sua arte começa aqui.</h2>
+                    <p>Escolha a unidade mais perto de você e venha tomar um café com a gente.</p>
+
+                    <div class="unit-block glass">
+                        <h3>📍 Méier</h3>
+                        <p>Rua Dias da Cruz, 123 - Sala 405</p>
+                        <a href="#" class="btn-sm">Como chegar</a>
+                    </div>
+
+                    <div class="unit-block glass">
+                        <h3>📍 Tijuca</h3>
+                        <p>Rua Conde de Bonfim, 456 - Sobreloja</p>
+                        <a href="#" class="btn-sm">Como chegar</a>
+                    </div>
                 </div>
-                <div
-                    style="background:rgba(255,255,255,0.1); padding:30px; border-radius:30px; backdrop-filter:blur(5px);">
-                    <h3 style="color:var(--amarelo-oba);">Tijuca</h3>
-                    <p style="margin:15px 0;">Rua Conde de Bonfim, 456</p>
-                    <a href="#" class="btn btn-secondary"
-                        style="background:transparent; color:white; border-color:white; font-size:0.9rem;">Ver Mapa</a>
+                <div class="loc-map reveal">
+                    <!-- Placeholder Map -->
+                    <div class="map-frame">
+                        <span>Mapa Interativo</span>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- 7. FINAL CTA -->
+    <section class="final-cta section-padding">
+        <div class="container text-center reveal">
+            <h2>Pronto para começar sua jornada?</h2>
+            <p>A primeira aula é por nossa conta. Venha experimentar sem compromisso.</p>
+            <a href="https://wa.me/5521999999999" class="btn btn-primary btn-lg">
+                Agendar Aula Experimental Gratuita
+            </a>
+            <img src="images/Arty (4).png" alt="Arty" class="arty-footer">
         </div>
     </section>
 
     <!-- FOOTER -->
     <footer>
         <div class="container">
-            <img src="images/Logo OBA Arty.png" alt="OBA" class="footer-logo">
-            <p>"A arte não tem idade."</p>
-            <div style="margin-top:20px; font-size:0.9rem; opacity:0.6;">
-                &copy; 2024 Oficina Belas Artes. Todos os direitos reservados.
+            <div class="footer-content">
+                <img src="images/Logo OBA Arty.png" alt="OBA" class="footer-logo">
+                <p>“A arte é para todos.”</p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Oficina Belas Artes. Criado por <strong>OláMundoDigital</strong>.</p>
             </div>
         </div>
     </footer>
 
-    <!-- FLOAT BUTTONS -->
-    <div class="floating-container">
-        <a href="https://wa.me/5521999999999" target="_blank" class="float-btn btn-whatsapp">
-            <i class="fab fa-whatsapp"></i>
+    <!-- FLOATING ELEMENTS -->
+    <!-- WhatsApp -->
+    <a href="https://wa.me/5521999999999" target="_blank" class="float-wa">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll Top -->
+    <div class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- MOBILE APP BAR (Bottom) -->
+    <div class="mobile-app-bar glass">
+        <a href="#inicio" class="app-item active">
+            <i class="fas fa-home"></i>
+            <span>Início</span>
         </a>
-        <div id="scrollTop" class="float-btn btn-top">
-            <i class="fas fa-arrow-up"></i>
-        </div>
+        <a href="#cursos" class="app-item">
+            <i class="fas fa-paint-brush"></i>
+            <span>Cursos</span>
+        </a>
+        <a href="https://wa.me/5521999999999" class="app-item highlight">
+            <div class="highlight-circle">
+                <i class="fas fa-calendar-check"></i>
+            </div>
+            <span>Agendar</span>
+        </a>
+        <a href="#localizacao" class="app-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Local</span>
+        </a>
+        <a href="https://wa.me/5521999999999" class="app-item">
+            <i class="fab fa-whatsapp"></i>
+            <span>Whats</span>
+        </a>
     </div>
 
     <script src="script.js"></script>
