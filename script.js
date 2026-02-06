@@ -2,60 +2,68 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    // --- 1. Reveal on Scroll ---
+    // --- 1. Reveal on Scroll (Intersection Observer) ---
     const reveals = document.querySelectorAll('.reveal');
 
-    function reveal() {
-        const windowHeight = window.innerHeight;
-        const elementVisible = 100;
-
-        reveals.forEach(reveal => {
-            const elementTop = reveal.getBoundingClientRect().top;
-            if (elementTop < windowHeight - elementVisible) {
-                reveal.classList.add('active');
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+                // Optional: stop observing after reveal
+                // revealObserver.unobserve(entry.target);
             }
         });
-    }
+    }, {
+        threshold: 0.15,
+        rootMargin: "0px 0px -50px 0px"
+    });
 
-    window.addEventListener('scroll', reveal);
-    reveal(); // init
+    reveals.forEach(el => revealObserver.observe(el));
 
-    // --- 2. Parallax Effect (Hero) ---
+    // --- 2. Enhanced Parallax Effect (Hero & Backgrounds) ---
     const hero = document.querySelector('.hero');
-    const floatCards = document.querySelectorAll('.float-card');
-    const blobs = document.querySelectorAll('.blob');
+    const parallaxElements = document.querySelectorAll('[data-speed]');
+    const bgParallaxes = document.querySelectorAll('[data-parallax-speed]');
 
+    // Mouse Parallax (Hero)
     if (hero) {
         hero.addEventListener('mousemove', (e) => {
-            if (window.innerWidth < 900) return; // Disable on mobile
+            if (window.innerWidth < 900) return;
 
-            const x = (window.innerWidth - e.pageX * 2) / 90;
-            const y = (window.innerHeight - e.pageY * 2) / 90;
+            const { clientX, clientY } = e;
+            const centerX = window.innerWidth / 2;
+            const centerY = window.innerHeight / 2;
 
-            floatCards.forEach(card => {
-                card.style.transform = `translateX(${x}px) translateY(${y}px)`;
-            });
+            const moveX = clientX - centerX;
+            const moveY = clientY - centerY;
 
-            blobs.forEach((blob, index) => {
-                const speed = (index + 1) * 2;
-                blob.style.transform = `translateX(${x * speed}px) translateY(${y * speed}px)`;
+            parallaxElements.forEach(el => {
+                const speed = el.getAttribute('data-speed') || 0.1;
+                el.style.transform = `translateX(${moveX * speed}px) translateY(${moveY * speed}px)`;
             });
         });
     }
 
-    // --- 3. Scroll to Top & Sticky Nav ---
-    const scrollTopBtn = document.getElementById('scrollTop');
-    const navbar = document.querySelector('.navbar');
-
+    // Scroll Parallax (Backgrounds)
     window.addEventListener('scroll', () => {
-        // Scroll Top visibility
+        const scrolled = window.pageYOffset;
+
+        bgParallaxes.forEach(el => {
+            const speed = el.getAttribute('data-parallax-speed') || 0.05;
+            const yPos = -(scrolled * speed);
+            el.style.transform = `translateY(${yPos}px)`;
+        });
+
+        // --- 3. Scroll to Top & Sticky Nav ---
+        const scrollTopBtn = document.getElementById('scrollTop');
+        const navbar = document.querySelector('.navbar');
+
         if (window.scrollY > 500) {
             scrollTopBtn.classList.add('visible');
         } else {
             scrollTopBtn.classList.remove('visible');
         }
 
-        // Navbar glass intensity
         if (window.scrollY > 50) {
             navbar.style.background = 'rgba(255, 255, 255, 0.95)';
             navbar.style.boxShadow = '0 5px 20px rgba(0,0,0,0.1)';
@@ -63,17 +71,10 @@ document.addEventListener('DOMContentLoaded', () => {
             navbar.style.background = 'rgba(255, 255, 255, 0.7)';
             navbar.style.boxShadow = '0 8px 32px 0 rgba(31, 38, 135, 0.07)';
         }
-    });
 
-    scrollTopBtn.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-
-    // --- 4. Mobile Nav Active State ---
-    const sections = document.querySelectorAll('section');
-    const navItems = document.querySelectorAll('.app-item');
-
-    window.addEventListener('scroll', () => {
+        // --- 4. Mobile Nav Active State ---
+        const sections = document.querySelectorAll('section');
+        const navItems = document.querySelectorAll('.app-item');
         let current = '';
         const offset = 200;
 
@@ -86,10 +87,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         navItems.forEach(item => {
             item.classList.remove('active');
-            if (item.getAttribute('href').includes(current)) {
+            if (item.getAttribute('href')?.includes(current)) {
                 item.classList.add('active');
             }
         });
+    });
+
+    const scrollTopBtn = document.getElementById('scrollTop');
+    scrollTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
 });

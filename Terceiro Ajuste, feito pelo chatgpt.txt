@@ -1,0 +1,171 @@
+Analisei o **site atual ([https://siteoba.vercel.app/](https://siteoba.vercel.app/))** com base no conteúdo, navegação, estrutura visual e copy que está publicada lá. ([siteoba.vercel.app][1])
+
+Aqui vai um **resumo rápido do que já está funcionando bem** e depois os **10 prompts detalhados de melhoria que você pediu**, cada um focado em um ajuste específico para o **Antigravity**.
+
+---
+
+## 🟢 O QUE JÁ FUNCIONA NO SITE
+
+✅ **Estrutura de seções bem organizada** — Hero, Metodologia, Cursos, Unidades, CTA final, tudo em uma página clara. ([siteoba.vercel.app][1])
+✅ **Copy emocional e educativa**, sem tom de venda forçada — está alinhado com boas práticas de landing page. ([Framer][2])
+✅ **Foco principal em ação** (Agendar Aula Experimental). ([siteoba.vercel.app][1])
+✅ **Visual simples e legível**, sem confusão visual. ([siteoba.vercel.app][1])
+
+---
+
+## 🔧 O QUE AINDA PODE MELHORAR
+
+Com base em boas práticas de design e usabilidade para landing pages modernas, há pontos claros que podem ser otimizados, como:
+
+* Hero mais impactante
+* Uso de efeitos modernos (glassmorphism, scroll animations)
+* Navegação mobile estilo app
+* Destaque de CTAs
+* Integração visual mais rica com fotos reais
+* Melhor rodapé profissional
+* Botões fixos (to top, WhatsApp, agendar)
+* Secundar informações reforçadas
+* Hierarquia visual mais forte
+* Identidade de fundo artística por dobra
+
+Essas melhorias estão alinhadas com o que especialistas recomendam para landing pages fortes hoje — como hierarquia visual, foco claro em CTA e mobile responsivo. ([Unbounce][3])
+
+---
+
+## 🎯 10 PROMPTS DETALHADOS PARA AJUSTES NO ANTIGRAVITY
+
+Cada prompt abaixo é **separado e focado em um ajuste específico**, ideal para você pedir por partes ao Antigravity.
+
+---
+
+### **PROMPT 1 — Aperfeiçoar o HERO**
+
+> *Vamos fazer o ajuste do Hero agora.*
+> Ajuste o Hero da landing page para um **impacto máximo**, incluindo:
+>
+> * Fundo com camadas visuais e efeitos *parallax*
+> * Texto principal legível e claro em 5s (benefício perceptível) ([Framer][2])
+> * CTA principal destacado com glassmorphism
+> * Elementos animados leves
+> * Imagens reais do Instagram @oba.meier substituindo imagens genéricas
+
+---
+
+### **PROMPT 2 — Scroll e Animações**
+
+> *Vamos fazer o ajuste dos efeitos de rolagem.*
+> Confira as seções uma a uma e aplique:
+>
+> * *Fade-in* suave de textos e imagens
+> * Efeito *parallax* leve em planos de fundo
+> * Transições que guiem o olhar do usuário
+>   Essas animações devem ser **suaves, performáticas e não intrusivas**. ([UX Knowledge Base Sketch][4])
+
+---
+
+### **PROMPT 3 — Menus e Navegação Mobile**
+
+> *Vamos fazer o ajuste da navegação mobile.*
+> Transforme a navegação em:
+>
+> * Barra fixa inferior estilo app
+> * Ícones grandes, legíveis e acessíveis
+> * Ações rápidas: Início, Cursos, Instagram, WhatsApp, Aula Experimental
+>   Isso deve deixar a navegação mais natural em smartphones. ([Wikipedia][5])
+
+---
+
+### **PROMPT 4 — Botões Globais Fixos**
+
+> *Vamos fazer o ajuste dos botões globais.*
+> Adicione:
+>
+> * Botão flutuante de WhatsApp fixo no canto inferior
+> * Botão “Voltar ao Topo” que aparece ao rolar
+> * Botões CTAs secundários destacando “Agende sua Aula Experimental”
+>   Todos com animações leves e glassmorphism.
+
+---
+
+### **PROMPT 5 — Background por Dobras**
+
+> *Vamos fazer o ajuste dos fundos das seções.*
+> Em vez de branco simples:
+>
+> * Faça alternância de cores leves com a paleta OBA
+> * Use efeitos artísticos suaves (tinta, textura, gradiente)
+> * Harmonize com a identidade visual sem poluir a leitura. ([Unbounce][3])
+
+---
+
+### **PROMPT 6 — Integração Real com Instagram**
+
+> *Vamos fazer o ajuste do conteúdo social.*
+> Substitua imagens estáticas por **feed real do Instagram @oba.meier**:
+>
+> * Use fotos reais de alunos e oficinas
+> * Mostre arte acontecendo agora
+> * Links ativos para posts
+>   Isso trará **prova social viva** para a landing. ([Instagram][6])
+
+---
+
+### **PROMPT 7 — Destaque Visual dos Cursos**
+
+> *Vamos fazer o ajuste da seção de cursos.*
+> Melhore visual de cada curso com:
+>
+> * Imagens reais ou ilustrações da Arty
+> * Cartões com hover e glassmorphism
+> * Descrições curtas e convidativas
+> * Botões “Saiba Mais” visualmente consistentes
+
+---
+
+### **PROMPT 8 — Tipografia e Hierarquia Visual**
+
+> *Vamos fazer o ajuste da tipografia.*
+> Use fontes modernas sans-serif e:
+>
+> * Destaque de títulos e subtítulos
+> * Espaçamento confortável
+> * Hierarquia visual clara
+>   Isso melhora leitura e a experiência geral. ([landingpageflow.com][7])
+
+---
+
+### **PROMPT 9 — Rodapé Premium**
+
+> *Vamos fazer o ajuste do rodapé.*
+> Crie um rodapé visualmente organizado com:
+>
+> * Logo da OBA, endereço de unidades
+> * Links úteis
+> * Texto institucional
+> * Assinatura “Criado por OláMundoDigital”
+> * Fundo sólido com destaque sutil
+
+---
+
+### **PROMPT 10 — Microinterações e Feedback Visual**
+
+> *Vamos fazer o ajuste das microinterações.*
+> Em todas as ações do usuário:
+>
+> * Hover em botões
+> * Cliques
+> * Scroll
+>   Adicione feedback visual sutil (cores, movimento, brilho) para tornar a experiência mais intuitiva. ([UX Knowledge Base Sketch][4])
+
+---
+
+Se quiser, posso também criar **prompts adicionais focados em SEO, performance e A/B tests**, ou abordar ajustes de **copy e conteúdos emocionais** com base no Instagram da OBA e em práticas comprovadas de UX.
+Só dizer qual será o próximo passo 🚀🎨
+
+[1]: https://siteoba.vercel.app/ "Oficina Belas Artes - Sua Jornada Artística Começa Aqui"
+[2]: https://www.framer.com/blog/landing-page-best-practices/?utm_source=chatgpt.com "9 landing page best practices for 2025 (with real examples)"
+[3]: https://unbounce.com/landing-page-articles/landing-page-best-practices/?utm_source=chatgpt.com "Landing Page Best Practices To Create High-Converting ..."
+[4]: https://uxknowledgebase.com/landing-page-best-practices-the-rest-of-the-page-c42b92f3849b?utm_source=chatgpt.com "Landing page best practices: the rest of the page"
+[5]: https://en.wikipedia.org/wiki/Responsive_web_design?utm_source=chatgpt.com "Responsive web design"
+[6]: https://www.instagram.com/oba.meier/?utm_source=chatgpt.com "oba.meier - Oficina Belas Artes"
+[7]: https://www.landingpageflow.com/post/font-choices-for-modern-landing-pages?utm_source=chatgpt.com "The Better Font Choices For Clean, Modern Landing Pages"
