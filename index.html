@@ -27,75 +27,173 @@
     <!-- Desktop Navbar -->
     <nav class="navbar glass">
         <div class="container nav-content">
-            <a href="#" class="logo">
-                <img src="images/Logo OBA Arty.png" alt="OBA Logo">
-            </a>
+            <!-- Logo Removed (Floating Logo replaces it) -->
             <ul class="nav-links">
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#proposito">Por que Arte?</a></li>
-                <li><a href="#metodologia">Metodologia</a></li>
-                <li><a href="#cursos">Cursos</a></li>
-                <li><a href="#localizacao">Unidades</a></li>
+                <li><a href="#inicio" class="nav-item">Início</a></li>
+                <li><a href="#proposito" class="nav-item">Por que Arte?</a></li>
+                <li><a href="#metodologia" class="nav-item">Metodologia</a></li>
+                <li class="dropdown-trigger">
+                    <a href="#cursos" class="nav-item">Cursos <i class="fas fa-chevron-down"
+                            style="font-size: 0.7em; margin-left: 5px;"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="cursos/manga.html"><i class="fas fa-book-open"></i> Mangá</a></li>
+                        <li><a href="cursos/realismo.html"><i class="fas fa-eye"></i> Desenho Realista</a></li>
+                        <li><a href="cursos/cartoon.html"><i class="fas fa-pencil-alt"></i> Cartoon</a></li>
+                        <li><a href="cursos/hq.html"><i class="fas fa-comment-dots"></i> HQ</a></li>
+                        <li><a href="cursos/pintura-em-tela.html"><i class="fas fa-palette"></i> Pintura em Tela</a>
+                        </li>
+                        <li><a href="cursos/moda.html"><i class="fas fa-tshirt"></i> Moda</a></li>
+                        <li><a href="cursos/cenario-e-ambientacao.html"><i class="fas fa-building"></i> Cenário</a></li>
+                        <li><a href="cursos/comunicacao-visual.html"><i class="fas fa-bullhorn"></i> Com. Visual</a>
+                        </li>
+                        <li><a href="cursos/ceramica.html"><i class="fas fa-coffee"></i> Cerâmica</a></li>
+                    </ul>
+                </li>
+                <li><a href="#localizacao" class="nav-item">Unidades</a></li>
             </ul>
             <a href="https://wa.me/5521999999999" class="btn btn-primary desktop-cta">Agendar Aula Experimental</a>
         </div>
     </nav>
 
     <!-- 1. HERO SECTION -->
-    <section id="inicio" class="hero">
+    <!-- 1. HERO SLIDER SECTION -->
+    <section id="inicio" class="hero-slider-section">
+        <!-- Global Background Elements (Persist across slides) -->
         <div class="hero-bg-elements">
-            <!-- Blobs & Dynamic Background -->
             <div class="blob blob-1"></div>
             <div class="blob blob-2"></div>
             <div class="hero-pattern"></div>
         </div>
 
-        <div class="container hero-container">
-            <div class="hero-text reveal">
-                <div class="hero-tagline">
-                    <span class="icon">✨</span>
-                    <span>Transformando paixão em domínio técnico</span>
-                </div>
-                <h1>Sua arte levada <br>a <span class="highlight">sério.</span></h1>
-                <p>Na Oficina Belas Artes, você aprende técnica de verdade para expressar sua visão única. Sem
-                    julgamentos, apenas evolução.</p>
-                <div class="hero-ctas">
-                    <a href="https://wa.me/5521999999999" class="btn btn-hero-glass">
-                        <span>Começar Aula Experimental</span>
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
+        <!-- Slider Wrapper -->
+        <div class="hero-slider">
 
-                <div class="hero-social-proof">
-                    <div class="avatars">
-                        <div class="avatar"></div>
-                        <div class="avatar"></div>
-                        <div class="avatar"></div>
-                        <span>+2.000 alunos transformados</span>
+            <!-- SLIDE 1 (Original) -->
+            <div class="hero-slide active">
+                <div class="container hero-container">
+                    <div class="hero-text">
+                        <div class="hero-tagline animate-text delay-1">
+                            <span class="icon">✨</span>
+                            <span>Transformando paixão em domínio técnico</span>
+                        </div>
+                        <h1 class="animate-text delay-2">Sua arte levada <br>a <span class="highlight">sério.</span>
+                        </h1>
+                        <p class="animate-text delay-3">Na Oficina Belas Artes, você aprende técnica de verdade para
+                            expressar sua visão única. Sem julgamentos, apenas evolução.</p>
+                        <div class="hero-ctas animate-text delay-4">
+                            <a href="https://wa.me/5521999999999" class="btn btn-hero-glass">
+                                <span>Começar Aula Experimental</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="hero-social-proof animate-text delay-5">
+                            <div class="avatars">
+                                <div class="avatar"></div>
+                                <div class="avatar"></div>
+                                <div class="avatar"></div>
+                                <span>+2.000 alunos transformados</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual">
+                        <div class="hero-mural" data-speed="0.05">
+                            <div class="mural-item p1"></div>
+                            <div class="mural-item p2"></div>
+                            <div class="mural-item p3"></div>
+                        </div>
+                        <img src="images/Arty (2).png" alt="Arty Mascote" class="arty-float animate-visual"
+                            loading="eager" decoding="async">
+                        <div class="float-element element-1 glass animate-float delay-3">
+                            <i class="fas fa-pencil-alt"></i>
+                            <span>Técnica Real</span>
+                        </div>
+                        <div class="float-element element-2 glass animate-float delay-4">
+                            <i class="fas fa-palette"></i>
+                            <span>Criação Livre</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="hero-visual reveal">
-                <!-- Parallax Mural Layer -->
-                <div class="hero-mural" data-speed="0.05">
-                    <div class="mural-item p1"></div>
-                    <div class="mural-item p2"></div>
-                    <div class="mural-item p3"></div>
-                </div>
+            <!-- SLIDE 2 -->
+            <div class="hero-slide">
+                <div class="container hero-container">
+                    <div class="hero-text">
+                        <div class="hero-tagline animate-text delay-1">
+                            <span class="icon">🚀</span>
+                            <span>Explore seu potencial criativo</span>
+                        </div>
+                        <h1 class="animate-text delay-2">Descubra seu <br>próprio <span class="highlight">traço.</span>
+                        </h1>
+                        <p class="animate-text delay-3">Do Mangá ao Realismo, nossos mentores guiam você em cada etapa.
+                            Aqui, cada erro é um aprendizado e cada traço é uma conquista.</p>
+                        <div class="hero-ctas animate-text delay-4">
+                            <a href="#cursos" class="btn btn-hero-glass">
+                                <span>Conhecer Cursos</span>
+                                <i class="fas fa-paint-brush"></i>
+                            </a>
+                        </div>
+                    </div>
 
-                <img src="images/Arty (2).png" alt="Arty Mascote" class="arty-float" data-speed="0.1">
-
-                <!-- Floating Elements -->
-                <div class="float-element element-1 glass" data-speed="0.15">
-                    <i class="fas fa-pencil-alt"></i>
-                    <span>Técnica Real</span>
-                </div>
-                <div class="float-element element-2 glass" data-speed="0.2">
-                    <i class="fas fa-palette"></i>
-                    <span>Criação Livre</span>
+                    <div class="hero-visual">
+                        <!-- Different Mural or simplified for variation -->
+                        <div class="hero-mural" data-speed="0.05">
+                            <div class="mural-item p1" style="top:15%; right:15%; transform:rotate(-5deg)"></div>
+                            <div class="mural-item p2" style="bottom:20%; left:5%; transform:rotate(8deg)"></div>
+                        </div>
+                        <img src="images/Arty (5).png" alt="Arty Criativo" class="arty-float animate-visual"
+                            loading="lazy" decoding="async">
+                        <div class="float-element element-1 glass animate-float delay-3" style="top:20%; left:0">
+                            <i class="fas fa-shapes"></i>
+                            <span>Fundamentos</span>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <!-- SLIDE 3 -->
+            <div class="hero-slide">
+                <div class="container hero-container">
+                    <div class="hero-text">
+                        <div class="hero-tagline animate-text delay-1">
+                            <span class="icon">🤝</span>
+                            <span>Faça parte da nossa comunidade</span>
+                        </div>
+                        <h1 class="animate-text delay-2">Um espaço para <br><span class="highlight">criar</span> e
+                            pertencer.</h1>
+                        <p class="animate-text delay-3">A arte conecta pessoas. Junte-se a uma turma vibrante,
+                            apaixonada e pronta para compartilhar inspirações.</p>
+                        <div class="hero-ctas animate-text delay-4">
+                            <a href="#localizacao" class="btn btn-hero-glass">
+                                <span>Visitar Unidade</span>
+                                <i class="fas fa-map-marker-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual">
+                        <img src="images/Arty (3).png" alt="Arty Comunidade" class="arty-float animate-visual"
+                            loading="lazy" decoding="async">
+                        <div class="float-element element-2 glass animate-float delay-3" style="bottom:30%; right:0">
+                            <i class="fas fa-heart"></i>
+                            <span>Amizade & Arte</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Slider Controls -->
+        <button class="slider-arrow prev-slide" aria-label="Slide Anterior"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-arrow next-slide" aria-label="Próximo Slide"><i class="fas fa-chevron-right"></i></button>
+
+        <!-- Indicators -->
+        <div class="slider-dots">
+            <span class="dot active" data-slide="0" role="button" tabindex="0" aria-label="Ir para o slide 1"></span>
+            <span class="dot" data-slide="1" role="button" tabindex="0" aria-label="Ir para o slide 2"></span>
+            <span class="dot" data-slide="2" role="button" tabindex="0" aria-label="Ir para o slide 3"></span>
         </div>
 
         <div class="scroll-indicator">
@@ -150,7 +248,7 @@
         </div>
     </section>
 
-    <!-- 3. METHODOLOGY -->
+    <!-- 3. METHODOLOGY (Timeline Style) -->
     <section id="metodologia" class="methodology section-padding parallax-section">
         <div class="divider divider-top">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -162,46 +260,101 @@
                     class="fill-blue layer-3"></path>
             </svg>
         </div>
-        <div class="parallax-bg" style="background: linear-gradient(135deg, rgba(245,196,0,0.03) 0%, transparent 100%);"
+        <div class="parallax-bg"
+            style="background: linear-gradient(180deg, rgba(30,202,211,0.05) 0%, rgba(255,255,255,0) 100%);"
             data-parallax-speed="-0.03"></div>
-        <div class="container">
-            <div class="split-layout">
-                <div class="method-content reveal reveal-left">
-                    <span class="section-tag">Nossa Metodologia</span>
-                    <h2>Liberdade para criar,<br>apoio para crescer.</h2>
-                    <p>Aqui, você não é apenas mais um aluno copiando formas. Você é um artista em descoberta.</p>
 
-                    <ul class="method-list">
-                        <li class="reveal reveal-up delay-1">
-                            <i class="fas fa-check-circle"></i>
-                            <div>
-                                <strong>Ritmo Individual</strong>
-                                <p>Sua evolução é única. Respeitamos seu tempo e seus objetivos.</p>
-                            </div>
-                        </li>
-                        <li class="reveal reveal-up delay-2">
-                            <i class="fas fa-check-circle"></i>
-                            <div>
-                                <strong>Professores Mentores</strong>
-                                <p>Artistas atuantes que guiam você do rascunho à obra-prima.</p>
-                            </div>
-                        </li>
-                        <li class="reveal reveal-up delay-3">
-                            <i class="fas fa-check-circle"></i>
-                            <div>
-                                <strong>Ambiente Seguro</strong>
-                                <p>Um lugar livre de julgamentos, feito para a experimentação.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="method-visual reveal reveal-right">
-                    <div class="photo-grid">
-                        <!-- Placeholder specific colored blocks simulating photos -->
-                        <div class="photo-item p1"></div>
-                        <div class="photo-item p2"></div>
-                        <img src="images/Arty (5).png" alt="Arty" class="arty-method" data-speed="0.08">
+        <div class="container">
+            <div class="section-header reveal reveal-up">
+                <span class="section-tag">Nossa Metodologia</span>
+                <h2>Liberdade para criar,<br>apoio para crescer.</h2>
+                <p>Aqui, você não é apenas mais um aluno copiando formas. Você percorre uma jornada única de
+                    descobertas.</p>
+            </div>
+
+            <!-- Horizontal Scroll Container -->
+            <div class="horizontal-timeline-container">
+                <div class="horizontal-line"></div>
+
+                <div class="timeline-scroller">
+                    <!-- Step 1 -->
+                    <div class="timeline-card step-1">
+                        <div class="card-bg"></div>
+                        <div class="card-overlay"></div>
+                        <div class="step-number">01</div>
+                        <div class="card-info">
+                            <i class="fas fa-search"></i>
+                            <h3>Descoberta</h3>
+                            <p>Mergulhamos no seu universo. Entendemos seus traços, gostos e o que faz seus olhos
+                                brilharem.</p>
+                        </div>
                     </div>
+
+                    <!-- Arrow 1-2 -->
+                    <div class="timeline-arrow"><i class="fas fa-chevron-right"></i></div>
+
+                    <!-- Step 2 -->
+                    <div class="timeline-card step-2">
+                        <div class="card-bg"></div>
+                        <div class="card-overlay"></div>
+                        <div class="step-number">02</div>
+                        <div class="card-info">
+                            <i class="fas fa-pencil-ruler"></i>
+                            <h3>Fundamentos</h3>
+                            <p>Construção da base técnica. Anatomia, perspectiva e luz sem mitos ou bloqueios.</p>
+                        </div>
+                    </div>
+
+                    <!-- Arrow 2-3 -->
+                    <div class="timeline-arrow"><i class="fas fa-chevron-right"></i></div>
+
+                    <!-- Step 3 -->
+                    <div class="timeline-card step-3">
+                        <div class="card-bg"></div>
+                        <div class="card-overlay"></div>
+                        <div class="step-number">03</div>
+                        <div class="card-info">
+                            <i class="fas fa-flask"></i>
+                            <h3>Experimentação</h3>
+                            <p>Hora de testar. Misturar materiais, errar sem medo e descobrir novas texturas.</p>
+                        </div>
+                    </div>
+
+                    <!-- Arrow 3-4 -->
+                    <div class="timeline-arrow"><i class="fas fa-chevron-right"></i></div>
+
+                    <!-- Step 4 -->
+                    <div class="timeline-card step-4">
+                        <div class="card-bg"></div>
+                        <div class="card-overlay"></div>
+                        <div class="step-number">04</div>
+                        <div class="card-info">
+                            <i class="fas fa-fingerprint"></i>
+                            <h3>Identidade</h3>
+                            <p>Seu traço ganha vida própria. Você deixa de copiar e começa a expressar sua visão única.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Arrow 4-5 -->
+                    <div class="timeline-arrow"><i class="fas fa-chevron-right"></i></div>
+
+                    <!-- Step 5 -->
+                    <div class="timeline-card step-5">
+                        <div class="card-bg"></div>
+                        <div class="card-overlay"></div>
+                        <div class="step-number">05</div>
+                        <div class="card-info">
+                            <i class="fas fa-star"></i>
+                            <h3>Maestria</h3>
+                            <p>Domínio técnico aliado à liberdade criativa. Você está pronto para criar seu legado.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scroll Hint -->
+                <div class="scroll-hint">
+                    <i class="fas fa-chevron-right"></i> Arraste para ver a jornada
                 </div>
             </div>
         </div>
@@ -226,61 +379,90 @@
                 <p>Do traço clássico ao digital. Qual universo você quer explorar?</p>
             </div>
 
-            <div class="courses-grid">
-                <!-- Card 1 -->
-                <div class="course-card glass reveal reveal-scale delay-1">
-                    <div class="card-image">
-                        <img src="images/course-manga.png" alt="Mangá">
-                        <div class="overlay"></div>
+            <div class="courses-grid-new">
+                <!-- 1. Mangá -->
+                <div class="course-card-new reveal reveal-up delay-1">
+                    <div class="course-img-holder">
+                        <img src="images/OBA Cursos  site/OBA - Manga.png" alt="Mangá" loading="lazy">
                     </div>
-                    <div class="card-content">
-                        <h3>Mangá & Anime</h3>
-                        <p>Transforme histórias em traços. Domine a estética japonesa com maestria.</p>
-                        <a href="https://wa.me/5521999999999" class="btn-link">Saiba mais <i
-                                class="fas fa-arrow-right"></i></a>
-                    </div>
+                    <h3>Mangá</h3>
+                    <a href="cursos/manga.html" class="btn btn-sm btn-outline">Saiba mais</a>
                 </div>
 
-                <!-- Card 2 -->
-                <div class="course-card glass reveal reveal-scale delay-2">
-                    <div class="card-image">
-                        <img src="images/course-realismo.png" alt="Realismo">
-                        <div class="overlay"></div>
+                <!-- 2. Desenho Realista -->
+                <div class="course-card-new reveal reveal-up delay-1">
+                    <div class="course-img-holder">
+                        <img src="images/OBA Cursos  site/OBA - Realismo.png" alt="Desenho Realista" loading="lazy">
                     </div>
-                    <div class="card-content">
-                        <h3>Desenho Realista</h3>
-                        <p>Veja o mundo com olhar de artista. Luz, sombra e texturas impressionantes.</p>
-                        <a href="https://wa.me/5521999999999" class="btn-link">Saiba mais <i
-                                class="fas fa-arrow-right"></i></a>
-                    </div>
+                    <h3>Desenho Realista</h3>
+                    <a href="cursos/realismo.html" class="btn btn-sm btn-outline">Saiba mais</a>
                 </div>
 
-                <!-- Card 3 -->
-                <div class="course-card glass reveal reveal-scale delay-3">
-                    <div class="card-image">
-                        <img src="images/course-cartoon.png" alt="Cartoon">
-                        <div class="overlay"></div>
+                <!-- 3. Cartoon -->
+                <div class="course-card-new reveal reveal-up delay-1">
+                    <div class="course-img-holder">
+                        <img src="images/OBA Cursos  site/OBA - Cartoon.png" alt="Cartoon" loading="lazy">
                     </div>
-                    <div class="card-content">
-                        <h3>Cartoon & HQ</h3>
-                        <p>Dê vida a personagens expressivos e crie suas próprias tirinhas.</p>
-                        <a href="https://wa.me/5521999999999" class="btn-link">Saiba mais <i
-                                class="fas fa-arrow-right"></i></a>
-                    </div>
+                    <h3>Cartoon</h3>
+                    <a href="cursos/cartoon.html" class="btn btn-sm btn-outline">Saiba mais</a>
                 </div>
 
-                <!-- Card 4 -->
-                <div class="course-card glass reveal reveal-scale delay-4">
-                    <div class="card-image">
-                        <img src="images/course-pintura.png" alt="Pintura">
-                        <div class="overlay"></div>
+                <!-- 4. HQ -->
+                <div class="course-card-new reveal reveal-up delay-2">
+                    <div class="course-img-holder">
+                        <img src="images/OBA Cursos  site/OBA - HQ.png" alt="HQ" loading="lazy">
                     </div>
-                    <div class="card-content">
-                        <h3>Pintura em Tela</h3>
-                        <p>A terapia das cores. Relaxe e crie obras vibrantes com óleo ou acrílica.</p>
-                        <a href="https://wa.me/5521999999999" class="btn-link">Saiba mais <i
-                                class="fas fa-arrow-right"></i></a>
+                    <h3>HQ</h3>
+                    <a href="cursos/hq.html" class="btn btn-sm btn-outline">Saiba mais</a>
+                </div>
+
+                <!-- 5. Pintura em Tela -->
+                <div class="course-card-new reveal reveal-up delay-2">
+                    <div class="course-img-holder">
+                        <img src="images/OBA Cursos  site/OBA - Pintura em tela.png" alt="Pintura em Tela"
+                            loading="lazy">
                     </div>
+                    <h3>Pintura em Tela</h3>
+                    <a href="cursos/pintura-em-tela.html" class="btn btn-sm btn-outline">Saiba mais</a>
+                </div>
+
+                <!-- 6. Moda -->
+                <div class="course-card-new reveal reveal-up delay-2">
+                    <div class="course-img-holder">
+                        <img src="images/OBA Cursos  site/OBA - Moda.png" alt="Moda" loading="lazy">
+                    </div>
+                    <h3>Moda</h3>
+                    <a href="cursos/moda.html" class="btn btn-sm btn-outline">Saiba mais</a>
+                </div>
+
+                <!-- 7. Cenário e Ambientação -->
+                <div class="course-card-new reveal reveal-up delay-3">
+                    <div class="course-img-holder">
+                        <img src="images/OBA Cursos  site/OBA - Cenario e Ambientaçao.png" alt="Cenário e Ambientação"
+                            loading="lazy">
+                    </div>
+                    <h3>Cenário e Ambientação</h3>
+                    <a href="cursos/cenario-e-ambientacao.html" class="btn btn-sm btn-outline">Saiba mais</a>
+                </div>
+
+                <!-- 8. Comunicação Visual -->
+                <div class="course-card-new reveal reveal-up delay-3">
+                    <div class="course-img-holder">
+                        <img src="images/OBA Cursos  site/OBA - Comunicaçao visual.png" alt="Comunicação Visual"
+                            loading="lazy">
+                    </div>
+                    <h3>Comunicação Visual</h3>
+                    <a href="cursos/comunicacao-visual.html" class="btn btn-sm btn-outline">Saiba mais</a>
+                </div>
+
+                <!-- 9. Cerâmica -->
+                <div class="course-card-new reveal reveal-up delay-3">
+                    <div class="course-img-holder">
+                        <!-- Placeholder for Ceramica -->
+                        <img src="images/OBA Cursos  site/OBA - Nossos Cursos.png" alt="Cerâmica" loading="lazy">
+                    </div>
+                    <h3>Cerâmica</h3>
+                    <a href="cursos/ceramica.html" class="btn btn-sm btn-outline">Saiba mais</a>
                 </div>
             </div>
         </div>
@@ -291,11 +473,11 @@
         <div class="divider divider-top">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M0,120 L1200,120 L1200,60 C1050,90 900,30 750,60 C600,90 450,30 300,60 C150,90 0,60 0,60 Z"
-                    class="fill-grey"></path>
+                    class="fill-oba-accent"></path>
                 <path d="M0,120 L1200,120 L1200,70 C1050,100 900,40 750,70 C600,100 450,40 300,70 C150,100 0,70 0,70 Z"
-                    class="fill-grey layer-2"></path>
+                    class="fill-oba-accent layer-2"></path>
                 <path d="M0,120 L1200,120 L1200,80 C1050,110 900,50 750,80 C600,110 450,50 300,80 C150,110 0,80 0,80 Z"
-                    class="fill-grey layer-3"></path>
+                    class="fill-oba-accent layer-3"></path>
             </svg>
         </div>
         <div class="container">
@@ -317,7 +499,8 @@
             </div>
 
             <div class="insta-cta reveal">
-                <a href="https://instagram.com/oba.meier" target="_blank" class="btn btn-outline">Ver Perfil
+                <a href="https://instagram.com/oba.meier" target="_blank" rel="noopener" class="btn btn-outline">Ver
+                    Perfil
                     Completo</a>
             </div>
         </div>
@@ -333,20 +516,60 @@
 
                     <div class="unit-block glass">
                         <h3>📍 Méier</h3>
-                        <p>Rua Dias da Cruz, 123 - Sala 405</p>
-                        <a href="#" class="btn-sm">Como chegar</a>
+                        <p><strong>R. Ana Barbosa, 47</strong><br>Méier, Rio de Janeiro - RJ<br>CEP: 20735-120</p>
+                        <p class="unit-phone"><i class="fab fa-whatsapp"></i> (21) 97640-6960</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=R.+Ana+Barbosa,+47+-+Méier,+Rio+de+Janeiro+-+RJ,+20735-120"
+                            target="_blank" rel="noopener" class="btn-sm btn-outline">Como chegar</a>
                     </div>
 
                     <div class="unit-block glass">
                         <h3>📍 Tijuca</h3>
-                        <p>Rua Conde de Bonfim, 456 - Sobreloja</p>
-                        <a href="#" class="btn-sm">Como chegar</a>
+                        <p><strong>R. Maj. Ávila, 371</strong><br>Tijuca, Rio de Janeiro - RJ<br>CEP: 21862-765</p>
+                        <p class="unit-phone"><i class="fab fa-whatsapp"></i> (21) 96726-1725</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=R.+Maj.+Ávila,+371+-+Tijuca,+Rio+de+Janeiro+-+RJ,+21862-765"
+                            target="_blank" rel="noopener" class="btn-sm btn-outline">Como chegar</a>
                     </div>
                 </div>
-                <div class="loc-map reveal">
-                    <!-- Placeholder Map -->
-                    <div class="map-frame">
-                        <span>Mapa Interativo</span>
+                <div class="loc-form-col reveal">
+                    <div class="loc-form-wrapper glass">
+                        <h3>Fale com a gente</h3>
+                        <p>Tire suas dúvidas ou agende sua visita agora mesmo.</p>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" class="input-field" placeholder="Seu Nome" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" class="input-field" placeholder="Seu WhatsApp (com DDD)"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <select id="course" class="input-field">
+                                    <option value="" disabled selected>Tenho interesse em...</option>
+                                    <option value="Arte Geral">Conhecer a Escola (Geral)</option>
+                                    <option value="Mangá">Mangá</option>
+                                    <option value="Desenho Realista">Desenho Realista</option>
+                                    <option value="Cartoon">Cartoon</option>
+                                    <option value="HQ">HQ</option>
+                                    <option value="Pintura em Tela">Pintura em Tela</option>
+                                    <option value="Moda">Moda</option>
+                                    <option value="Cenário">Cenário e Ambientação</option>
+                                    <option value="Comunicação Visual">Comunicação Visual</option>
+                                    <option value="Cerâmica">Cerâmica</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" class="input-field" rows="3"
+                                    placeholder="Sua mensagem..."></textarea>
+                            </div>
+                            <div class="form-actions">
+                                <button type="button" class="btn btn-whatsapp" onclick="sendWhatsApp()">
+                                    <i class="fab fa-whatsapp"></i> Enviar por WhatsApp
+                                </button>
+                                <button type="submit" class="btn btn-email">
+                                    <i class="fas fa-envelope"></i> Enviar por E-mail
+                                </button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -361,7 +584,7 @@
             <a href="https://wa.me/5521999999999" class="btn btn-primary btn-lg">
                 Agendar Aula Experimental Gratuita
             </a>
-            <img src="images/Arty (4).png" alt="Arty" class="arty-footer">
+            <img src="images/Arty (4).png" alt="Arty" class="arty-footer" loading="lazy" decoding="async">
         </div>
     </section>
 
@@ -372,7 +595,7 @@
             <div class="footer-grid">
                 <!-- Brand Info -->
                 <div class="footer-col brand-col">
-                    <img src="images/Logo OBA Arty.png" alt="OBA" class="footer-logo">
+                    <img src="images/Logo OBA Arty.png" alt="OBA" class="footer-logo" loading="lazy" decoding="async">
                     <p class="footer-desc">Desperte o artista que existe em você em um ambiente seguro, divertido e sem
                         julgamentos. "A arte é para todos."</p>
                     <div class="socials">
@@ -387,11 +610,13 @@
                     <h4>Nossas Unidades</h4>
                     <div class="unit-info">
                         <h5><i class="fas fa-map-marker-alt"></i> Méier</h5>
-                        <p>Rua Dias da Cruz, 188<br>Cobertura 02 - RJ</p>
+                        <p>R. Ana Barbosa, 47<br>Méier - RJ</p>
+                        <p class="footer-phone"><i class="fab fa-whatsapp"></i> (21) 97640-6960</p>
                     </div>
                     <div class="unit-info">
                         <h5><i class="fas fa-map-marker-alt"></i> Tijuca</h5>
-                        <p>Rua Conde de Bonfim, 370<br>Sala 805 - RJ</p>
+                        <p>R. Maj. Ávila, 371<br>Tijuca - RJ</p>
+                        <p class="footer-phone"><i class="fab fa-whatsapp"></i> (21) 96726-1725</p>
                     </div>
                 </div>
 
@@ -410,14 +635,14 @@
 
             <div class="copyright">
                 <p>&copy; 2024 Oficina Belas Artes. Todos os direitos reservados.</p>
-                <p class="creator">Criado por <a href="#" target="_blank">OláMundoDigital</a></p>
+                <p class="creator">Criado por <a href="#" target="_blank" rel="noopener">OláMundoDigital</a></p>
             </div>
         </div>
     </footer>
 
     <!-- FLOATING ELEMENTS -->
     <!-- WhatsApp -->
-    <a href="https://wa.me/5521999999999" target="_blank" class="float-wa">
+    <a href="https://wa.me/5521999999999" target="_blank" rel="noopener" class="float-wa">
         <i class="fab fa-whatsapp"></i>
     </a>
 
@@ -450,6 +675,33 @@
             <i class="fab fa-whatsapp"></i>
             <span>Whats</span>
         </a>
+    </div>
+
+    <!-- MOBILE COURSES MENU (Overlay) -->
+    <div id="mobile-courses-menu" class="mobile-menu-overlay glass">
+        <div class="mobile-menu-header">
+            <h3>Nossos Cursos</h3>
+            <button id="close-mobile-menu" class="close-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="mobile-menu-grid">
+            <a href="cursos/manga.html" class="mobile-menu-item"><i class="fas fa-book-open"></i> Mangá</a>
+            <a href="cursos/realismo.html" class="mobile-menu-item"><i class="fas fa-eye"></i> Realismo</a>
+            <a href="cursos/cartoon.html" class="mobile-menu-item"><i class="fas fa-pencil-alt"></i> Cartoon</a>
+            <a href="cursos/hq.html" class="mobile-menu-item"><i class="fas fa-comment-dots"></i> HQ</a>
+            <a href="cursos/pintura-em-tela.html" class="mobile-menu-item"><i class="fas fa-palette"></i> Pintura</a>
+            <a href="cursos/moda.html" class="mobile-menu-item"><i class="fas fa-tshirt"></i> Moda</a>
+            <a href="cursos/cenario-e-ambientacao.html" class="mobile-menu-item"><i class="fas fa-building"></i>
+                Cenário</a>
+            <a href="cursos/comunicacao-visual.html" class="mobile-menu-item"><i class="fas fa-bullhorn"></i> Com.
+                Visual</a>
+            <a href="cursos/ceramica.html" class="mobile-menu-item"><i class="fas fa-coffee"></i> Cerâmica</a>
+        </div>
+    </div>
+
+    <!-- DRAGGABLE FLOATING LOGO -->
+    <div id="floating-logo" class="floating-logo">
+        <button id="hide-logo-btn" class="close-logo"><i class="fas fa-times"></i></button>
+        <img src="images/Logo OBA Arty.png" alt="OBA Logo">
     </div>
 
     <script src="script.js"></script>

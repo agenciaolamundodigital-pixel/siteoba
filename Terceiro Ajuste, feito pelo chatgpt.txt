@@ -95,13 +95,14 @@ Cada prompt abaixo é **separado e focado em um ajuste específico**, ideal para
 > * Faça alternância de cores leves com a paleta OBA
 > * Use efeitos artísticos suaves (tinta, textura, gradiente)
 > * Harmonize com a identidade visual sem poluir a leitura. ([Unbounce][3])
+Vamos tentar assim, o hero fica com fundo branco mesmo, a primeira dobra fica o amarelo da OBA, porem, adicione um efeito entre as dobras para na ficar um corte reto, na terceira dobra deixe azul da OBA, tambem com efeito para nao ficar reto a quarta dobra que mostra as oficinas, deixe branco mesmo, a quinta que tem o instagram, deixe um cinza que combine, lembre-se de colocar sempre um efeito separado visual entre as dobras e um efeito de rolagem tipo paralax
 
 ---
 
 ### **PROMPT 6 — Integração Real com Instagram**
 
 > *Vamos fazer o ajuste do conteúdo social.*
-> Substitua imagens estáticas por **feed real do Instagram @oba.meier**:
+> Substitua imagens estáticas por **feed real do Instagram.com.br/oba.meier
 >
 > * Use fotos reais de alunos e oficinas
 > * Mostre arte acontecendo agora

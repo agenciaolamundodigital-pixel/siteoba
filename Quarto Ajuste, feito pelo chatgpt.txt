@@ -1,0 +1,235 @@
+Perfeito. Analisei **com lupa** o site atual da OBA
+👉 [https://www.olamundodigital.com.br/siteoba/](https://www.olamundodigital.com.br/siteoba/)
+e também o **print em mobile** que você enviou (menu estilo app).
+
+Vou estruturar assim, pra ficar **100% utilizável no Antigravity** e sem ruído:
+
+1. **Análise geral do que está funcionando**
+2. **Análise crítica do que ainda limita a experiência**
+3. **Lista de melhorias organizadas**
+4. **PROMPTS INDIVIDUAIS (um por ajuste)** — exatamente no formato que você pediu
+
+   > “Vamos ajustar X agora, faça Y”
+
+Vou criar **os prompts necessários para ficar no nível “produto premium”**, sem economizar.
+
+---
+
+## 1️⃣ O QUE ESTÁ FUNCIONANDO BEM HOJE
+
+### ✅ Pontos fortes reais
+
+* Estrutura de seções bem definida (ordem lógica)
+* Copy clara e alinhada com o posicionamento “arte levada a sério”
+* Menu mobile estilo app **muito bom** (já é um diferencial)
+* CTA de Aula Experimental bem posicionado
+* Identidade visual já reconhecível como OBA
+* Boa legibilidade no mobile
+
+👉 Ou seja: **a base é boa**.
+O problema não é conceitual, é **experiência, impacto e dinamismo**.
+
+---
+
+## 2️⃣ O QUE AINDA LIMITA A EXPERIÊNCIA
+
+### ❌ Pontos que seguram o site
+
+* Hero estático demais para a proposta da OBA
+* Menu desktop não “convida” à interação
+* Logo grande, mas passiva (poderia ser memorável)
+* Cards muito estáticos (parecem informativos, não envolventes)
+* Sessões longas sem variação de ritmo visual
+* Área de cursos confusa (mistura categorias)
+* Instagram sem peso visual suficiente
+* Formulário final pouco explorado como ponto de conversão emocional
+* Rodapé não fecha a experiência com força
+
+---
+
+## 3️⃣ VISÃO DE “SITE PERFEITO” PARA A OBA
+
+O site ideal da OBA precisa parecer:
+
+* 🎨 artístico
+* 📱 mobile-first
+* ✨ moderno
+* 🧠 educativo
+* ❤️ humano
+
+E **nunca**:
+
+* corporativo demais
+* engessado
+* estático
+
+Agora vamos aos **prompts**, que é o que você realmente precisa 👇
+
+---
+
+# 🎯 PROMPTS DE AJUSTE (UM POR VEZ – ANTIGRAVITY)
+
+---
+
+## 🔥 PROMPT 1 — HERO COMO SLIDER IMPACTANTE
+
+> **Vamos ajustar o Hero agora.**
+> Mantenha a imagem atual do Hero, mas transforme a seção em um **slider com 3 imagens**, onde:
+>
+> * Cada slide permanece visível por **5 segundos**
+> * O slider avança automaticamente
+> * Exista setas laterais para navegação manual
+> * O texto acompanha cada slide com leve animação
+> * Inclua um indicador visual de scroll (“role para baixo”) animado
+> * Garanta performance e fluidez no mobile
+
+---
+
+## 🧭 PROMPT 2 — MENU DESKTOP MAIS VIVO + DROPDOWN DE CURSOS
+
+> **Vamos ajustar o menu desktop agora.**
+> Torne a barra de menu mais destacada e interativa:
+>
+> * Hover com mudança de cor usando a paleta OBA
+> * Animações suaves ao passar o mouse e ao clicar
+> * O item “Cursos” deve abrir um **dropdown**, levando para páginas específicas de cada curso
+> * O menu deve transmitir modernidade e não parecer estático
+
+---
+
+## 🧲 PROMPT 3 — LOGO FLUTUANTE E INTERATIVA
+
+> **Vamos ajustar a logo da OBA agora.**
+> Faça com que a logo:
+>
+> * Fique grande e flutuante no canto superior esquerdo
+> * Seja **arrastável pelo usuário**
+> * Possua um pequeno botão “X” para ocultar a logo se o usuário desejar
+> * A interação deve ser suave e intuitiva, sem atrapalhar a navegação
+
+---
+
+## 🎴 PROMPT 4 — CARDS DA SEGUNDA SESSÃO MAIS ENVOLVENTES
+
+> **Vamos ajustar os cards da segunda sessão agora.**
+> Torne os cards mais dinâmicos e envolventes:
+>
+> * Layout mais visual e menos textual
+> * Animações no hover (elevação, sombra, micro-movimento)
+> * Uso de cores OBA como destaque
+> * Sensação de profundidade e modernidade
+
+---
+
+## ⚡ PROMPT 5 — QUARTA SESSÃO MAIS DINÂMICA
+
+> **Vamos ajustar a quarta sessão agora.**
+> Reestruture essa seção para:
+>
+> * Quebrar a linearidade visual
+> * Usar variação de layout (colunas, cards, destaque visual)
+> * Inserir animações de entrada no scroll
+> * Criar ritmo e manter o interesse do usuário
+
+---
+
+## 🎨 PROMPT 6 — REESTRUTURAÇÃO COMPLETA DA SEÇÃO DE CURSOS
+
+> **Vamos ajustar a seção de cursos agora.**
+> Reestruture completamente a seção para conter os seguintes cards individuais:
+>
+> * Mangá (não usar Anime)
+> * Desenho Realista
+> * Cartoon
+> * HQ
+> * Pintura em Tela
+> * Moda
+> * Cenário e Ambientação
+> * Comunicação Visual
+> * Cerâmica
+>   Cada card deve:
+> * Usar imagem 1080x1080
+> * Ter botão “Saiba mais”
+> * Levar para uma nova página
+>   Crie uma pasta `/cursos` e, dentro dela, um arquivo HTML para cada curso com o nome correspondente.
+
+---
+
+## 📸 PROMPT 7 — SESSÃO DO INSTAGRAM COM FUNDO ARTÍSTICO
+
+> **Vamos ajustar a seção do Instagram agora.**
+> Adicione:
+>
+> * Fundo colorido usando cores da OBA
+> * SVG de onda ou forma orgânica na mesma cor do fundo para dividir a seção
+> * Destaque visual para o conteúdo do Instagram
+> * Integração harmônica com o restante do layout
+
+---
+
+## 📝 PROMPT 8 — FORMULÁRIO “SUA ARTE COMEÇA AQUI” MAIS PODEROSO
+
+> **Vamos ajustar a seção “Sua arte começa aqui” agora.**
+> Adicione um formulário com:
+>
+> * Nome
+> * Telefone
+> * Curso (dropdown com todos os cursos)
+> * Mensagem
+>   Inclua dois botões:
+> * “Enviar por E-mail”
+> * “Enviar por WhatsApp”
+>   O visual deve ser acolhedor e convidativo, incentivando a ação.
+
+---
+
+## 📍 PROMPT 9 — AJUSTE DAS INFORMAÇÕES DAS UNIDADES
+
+> **Vamos ajustar a seção de unidades agora.**
+> Organize claramente as informações:
+>
+> * Unidade Méier
+>   Endereço: R. Ana Barbosa, 47 - Méier, Rio de Janeiro - RJ, 20735-120
+>   Telefone: (21) 97640-6960
+>   Botão “Como Chegar” com link do Google Maps informado
+> * Unidade Tijuca
+>   Endereço: R. Maj. Ávila, 371 - Tijuca, Rio de Janeiro - RJ, 21862-765
+>   Telefone: (21) 96726-1725
+>   Botão “Como Chegar” com link do Google Maps informado
+>   Priorize clareza, escaneabilidade e mobile-first.
+
+---
+
+## ⚓ PROMPT 10 — RODAPÉ COMO FECHAMENTO PREMIUM
+
+> **Vamos ajustar o rodapé agora.**
+> Crie um rodapé forte e bem organizado:
+>
+> * Identidade visual da OBA
+> * Frase institucional
+> * Links principais
+> * Informações resumidas
+> * Assinatura clara: **Criado por OláMundoDigital**
+>   O rodapé deve fechar a experiência com sensação de produto premium.
+
+---
+
+## 🎯 CONCLUSÃO HONESTA
+
+Você não está “consertando um site fraco”.
+Você está **elevando um site bom para um nível profissional alto**.
+
+Seguindo esses prompts **um por vez**, o Antigravity:
+
+* não se perde
+* entende claramente o que mudar
+* evolui o site de forma consistente
+
+Se quiser, no próximo passo eu posso:
+
+* priorizar a **ordem ideal** desses prompts
+* adaptar cada um para **desktop vs mobile**
+* criar os **prompts das páginas individuais dos cursos**
+* revisar tudo com foco em **conversão local (Méier / Tijuca)**
+
+É só dizer qual é o próximo movimento 🚀🎨
